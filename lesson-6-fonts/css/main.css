@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,500,500i,700i&subset=cyrillic');
+*{
+    font-family: "Times New Roman",Georgia, serif;
+}
+
+body :nth-child(2){
+    font-family: Verdana,Arial,sans-serif;
+}
+body :nth-child(3){
+    font-family: monospace;
+}
+
+body :nth-child(4){
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-weight: 700;
+}@font-face {
+    font-family: 'pacificregular';
+    src: url("fonts/");
+}
+

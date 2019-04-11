@@ -1,0 +1,31 @@
+.relative-1 {
+    display: flex;
+    width: 500px;
+    height: 500px;
+    background: #cccccc;
+}
+.child-1  {
+    width: 100px;
+    height: 100px;
+    background: #333333;
+    margin: auto;
+}
+.rel-2 {
+    display: flex;
+    height: 500px;
+    background: #cccccc;
+    /*justify-content: space-around;*/
+    /*align-items: flex-end;*/
+    /*flex-direction: column;*/
+    flex-wrap: wrap;
+    /*align-content: stretch;*/
+    font-size: 30px;
+    color: wheat;
+}
+.ch-2 {
+    width: 100px;
+    height: 100px;
+    background: #000000;
+    margin: 5px;
+    flex-basis: 80px;
+}

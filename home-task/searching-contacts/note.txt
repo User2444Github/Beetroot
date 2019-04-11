@@ -1,0 +1,6 @@
+label search
+ul *3 
+ul margin 0 padding 0 
+hover на контакт красный цвет фон серый 
+в хедере серч
+main со всеми елементами

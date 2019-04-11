@@ -1,0 +1,37 @@
+body{
+    background: #7A7593;
+}
+.inner{
+    width: 1140px;
+    margin: 0 auto;
+    background: #aaaaaa;
+}
+header {
+    line-height: 100px;
+    height: 100px;
+    background: #ffffff;
+}
+header nav {
+    float: right;
+}
+
+header li{
+    display: inline-block;
+    margin-left: 20px;
+
+}
+main .inner{
+    background: url("https://bipbap.ru/wp-content/uploads/2017/04/leto_derevo_nebo_peyzazh_dom_derevya_domik_priroda_3000x2000.jpg")
+    top right no-repeat;
+}
+
+.s1>div{
+    width: 50%;
+    text-align: right;
+}
+
+.s1 h1{
+
+}
+
+

@@ -1,0 +1,51 @@
+* {
+    outline: none;
+}
+form * {
+    display: block;
+    border-width: 1px;
+    border-color: #aaaaaa;
+}
+form input:not([type=file]),form textarea, form select, form button{
+    border: 1px solid #aaaaaa;
+}
+
+form *:focus {
+    border-color: red;
+}
+textarea{
+    width: 300px;
+    height: 100px;
+    resize: none;
+}
+label span{
+    color: red;
+    display: inline-block;
+}
+input:checked{
+    margin-left: 20px;
+}
+.styled-textarea{
+    position: relative;
+    padding-left: 20px;
+}
+
+.styled-textarea:before,
+.styled-textarea:after{
+    content: '';
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 19px;
+    width: 20px;
+
+
+}
+.styled-textarea:before{
+    background: #2d0eff;
+    height: calc(100% - 19px);
+}
+.styled-textarea:after{
+    background: #E97F7F;
+    height: 20px;
+}

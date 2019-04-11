@@ -1,0 +1,51 @@
+main {
+    background: grey;
+    font-size: 0px;
+
+}
+
+.search {
+    width: 900px;
+    height: 150px;
+    margin: 0px auto;
+}
+
+
+p {
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 0px;
+}
+
+nav {
+    background: #e1e1e4;
+    height: auto;
+    border-bottom: 5px solid white;
+    display: flex;
+    align-items: center;
+}
+
+.contacts {
+    width: 900px;
+    margin: 2px auto;
+    display: flex;
+}
+
+.l1,
+.l2,
+.l3 {
+    display: inline-block;
+    width: 300px;
+    font-size: 15px;
+    margin: 5px;
+}
+
+a {
+    align-items: center;
+    margin-left: 40px;
+}
+img {
+    width: 70px;
+    height: 70px;
+
+}

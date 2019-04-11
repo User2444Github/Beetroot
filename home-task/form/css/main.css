@@ -1,0 +1,39 @@
+body {
+    background-image: url("../img/main-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+input {
+    display: block;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+div {
+    border-radius: 7px;
+    width: 450px;
+    height: 475px;
+    margin: 75px auto;
+    background: white;
+    display: block;
+}
+.text {
+    height: 20px;
+    width: 175px;
+    display: inline-block;
+}
+#email,#password {
+    height: 20px;
+    width: 408px;
+    margin-left: 20px;
+}
+#button {
+    height: 50px;
+    width: 400px;
+}
+.head1 {
+    text
+}

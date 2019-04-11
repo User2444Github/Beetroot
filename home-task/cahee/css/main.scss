@@ -1,0 +1,151 @@
+.inner {
+  width: 1170px;
+  height: 900px;
+  margin: 0 auto;
+  padding-top: 66px;
+  position: relative;
+}
+main {
+  background: url("../bg1.png") no-repeat top center;
+}
+.menu {
+  float: right;
+  margin: 0;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  a{
+    padding-top: 5px;
+    color: black;
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 16px;
+    vertical-align: middle;
+    margin-left: 34px;
+  }
+  a:hover {
+    border-top: 3px solid #ff6033;
+  }
+}
+.s1 {
+  padding-top: 243px;
+  margin-bottom: 160px;
+
+  .h1{
+    font-size: 60px;
+    font-family: Arial;
+    font-weight: bold;
+    margin: 0;
+  }
+  p {
+    width: 370px;
+  }
+  button {
+    color: white;
+    font-size: 20px;
+    border: none;
+    background: #ff6033;
+    width: 200px;
+    height: 55px;
+  }
+}
+.scroll {
+  display: block;
+  margin: auto;
+}
+.s2 {
+  background: url("../bg2.png") no-repeat top center;
+  .inner {
+    height: 600px;
+  }
+  h1 {
+    font-size: 90px;
+    float: right;
+    color: white;
+  }
+  p {
+    width: 500px;
+    float: right;
+    content: '';
+    clear: both;
+    color: white;
+  }
+}
+.s3 {
+  .inner {
+    padding: 0;
+  }
+  background: url("../bg3.png") no-repeat top center;
+  height: 790px;
+  button:first-of-type {
+    margin-top: 178px;
+  }
+  button {
+    width: 400px;
+    height: 100px;
+    margin-bottom: 20px;
+    content: '';
+    clear: both;
+    margin-right: 0;
+    img {
+      float: right;
+      margin-right: 15px;
+    }
+    p {
+      line-height: 100%;
+      display: inline-block;
+    }
+
+  }
+  h1 {
+    font-size: 90px;
+    color: white;
+    display: block;
+    float: right;
+    line-height: 790px;
+    margin: 0;
+  }
+}
+.s4 {
+  background: url("../bg4.png") no-repeat top center;
+  height: 1250px;
+  .cont1  {
+    img:first-of-type {
+    float: left;
+  }
+  img:nth-of-type(3){
+    float: right;
+  }
+    img:nth-of-type(2) {
+      margin-bottom: 18px;
+      margin-top: 2px
+    }
+
+  }
+  button {
+    content: '';
+    clear: both;
+    color: white;
+    font-size: 20px;
+    border: none;
+    background: deepskyblue;
+    width: 200px;
+    height: 55px;
+    display: block;
+    margin: 0 auto;
+  }
+  .cont2 {
+    img:first-of-type {
+      float: left;
+    }
+  }
+}
+.menu {
+  background: url("../../../Exam1/travel-more/img/bg2.png");
+}
+
+
+
+
+

@@ -1,0 +1,41 @@
+svg rect:first-child{
+    fill: #ff7b02;
+    stroke: darkred;
+    stroke-width: 10px;
+    width: 25px;
+}
+ellipse {
+    fill: white;
+}
+.circle {
+    stroke: purple;
+}
+#svg {
+    width: 200px;
+    height: 250px;
+    background: url("../img/img.svg"),url("../img/Burger_King_Logo.svg");
+    background-size: 50%;
+
+}
+#path11,#path13,#path23 {
+    display: none;
+}
+
+#logo {
+    background: #abb7cb;
+    width: 300px;
+    height: 300px;
+}
+#logo .cls-3 {
+    stroke: #ffffff;
+    stroke-width: 2px;
+    fill: none;
+}
+#logo .cls-4 {
+    stroke: #f6f7fc;
+    stroke-width: 2px;
+    fill: none;
+}
+#logo .cls-5 {
+    fill: #ffffff;
+}

@@ -1,0 +1,103 @@
+/*body {*/
+    /*font-size: 0;*/
+
+/*}*/
+/*div {*/
+    /*display: inline-block;*/
+    /*border: 1px solid #333333;*/
+    /*margin: 50px;*/
+    /*padding: 5px;*/
+    /*width: calc(25% - 100px);*/
+    /*font-size: 16px;*/
+    /*box-sizing: border-box;*/
+    /*vertical-align: middle;*/
+    /*float: left;*/
+/*}*/
+
+h1 {
+    text-align: center;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.inner {
+    width: 960px;
+    margin: 0 auto;
+
+}
+.inner:before,
+.inner:after{
+    content: '';
+    display: block;
+    clear: both;
+
+}
+section.inner{
+    padding: 20px 0;
+}
+section:nth-of-type(odd) {
+    background-color: #aaaaaa;
+}
+
+header {
+    background: #ff7b02;
+}
+header.inner{
+    height: 50px;
+}
+#logo {
+    font-size: 40px;
+}
+
+nav {
+    float: right;
+    height: 100%;
+    }
+header:before,header nav:before{
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+header a{
+    vertical-align: middle;
+}
+p {
+
+}
+nav a{
+    margin: 10px;
+
+}
+nav a:first-child {
+    margin-left: 0;
+
+}
+nav a:last-child {
+    margin-right: 0;
+}
+ nav.custom-nav a {
+     color: black;
+     display: block;
+     margin-left: 0;
+     margin-right: 0;
+
+ }
+
+ #s2 ul {
+     display: inline-block;
+ }
+
+ #s4 .inner > div {
+     height: 100px;
+     width: 30%;
+     background: #333333;
+     display: inline-block;
+ }
+
+
+
+

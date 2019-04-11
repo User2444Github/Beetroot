@@ -1,0 +1,49 @@
+* {
+    border-radius: 10px;
+}
+body {
+    width: 600px;
+}
+div {
+    background: lightgreen;
+    height: 100px;
+    width: 600px;
+    color: grey;
+    margin: 20px;
+    display: block;
+
+}
+section {
+    margin: 20px;
+    width: 600px;
+    height: 100px;
+    background: grey;
+    display: block;
+}
+aside {
+    width: 50px;
+    height: 50px;
+    background: chocolate;
+    margin: 20px;
+
+}
+aside.left {
+    float: left;
+}
+aside.right {
+    float: right;
+}
+div.block:nth-child(3) {
+    float: right;
+}
+
+div.block {
+    width: 40px;
+    height: 80px;
+    display: inline-block;
+    margin: auto;
+}
+div.s2 {
+    clear: both;
+}
+

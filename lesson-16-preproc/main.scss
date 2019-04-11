@@ -1,0 +1,77 @@
+$btnColor: #f00;
+$border: 1px solid red;
+@mixin addWrapper {
+  .wrapper {
+    border: 2px solid red;
+    padding: 20px;
+    margin: 0;
+    &:before, &:after {
+    content: '';
+      display: block;
+      clear: both;
+    }
+  }
+}
+@mixin  box-sizing {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+
+@mixin button ($r, $color, $p) {
+  display: inline-block;
+  padding: $p;
+  color: #000000;
+  text-transform: uppercase;
+  border-radius: $r;
+  background: $color;
+}
+body {
+  margin: 0;
+  main {
+    width: 100px;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    @include addWrapper;
+    nav{
+      &.menu {
+      display: inline-block;
+        &-r {
+          float: left;
+      }
+      }
+      &.no-margin {
+        margin: 0;
+      }
+    }
+    @include box-sizing
+  }
+
+
+  footer {
+    & > div {
+
+    }
+    padding: 0;
+    a {
+      text-decoration: underline;
+      color: $btnColor;
+    }
+    &:before {
+      content: 'asda';
+    }
+  }
+}
+
+.button {
+  @include button (4px, #f85858, 10px 20px)
+}
+a.button:nth-of-type(2) {
+  @include button (5px, darkblue, 10px, 30px)
+}
+a.button:nth-of-type(4) {
+  @include button (5px, #008b6c, 10px, 30px)
+}

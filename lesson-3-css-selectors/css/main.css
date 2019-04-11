@@ -1,0 +1,157 @@
+* {
+    margin-top: 5px;
+}
+main {
+    border-top: 1px solid;
+}
+form * {
+    display: block;
+}
+.s3 {
+    background: #bbbbbb;
+    padding: 10px;
+}
+#s2 {
+    background: #cccccc;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+.selected ~ li {
+    margin-left: 50px;
+}
+.selected + li {
+    margin-left: 100px;
+}
+.main-div ~ * {
+    color: darkred;
+}
+.main-div + div {
+    color: darkblue;
+}
+.main-div + p {
+    color: darkblue;
+}
+.main-div ~ div + p {
+    color: darkgreen;
+}
+.main-div ~ div ~ .paragraph {
+    color: orangered;
+}
+/*Child selectors*/
+#s4 :nth-child(2) {
+    color: #7f40ff;
+}
+#s4 > :first-child,
+#s4 > :last-child {
+    color: #28ee4f;
+}
+#s4 > :first-of-type {
+    color: red;
+}
+#s4 > p:first-of-type {
+    color: blue;
+}
+#s4 > :nth-last-child(3) {
+    color: #b6bf00;
+}
+
+#s4 > div:nth-last-of-type(2) {
+    color: #0fbfac;
+}
+#s5 li:nth-child(2n) {
+    margin-left: 20px;
+}
+#s5 li:nth-child(5n) {
+    color: darkred;
+}
+#s5 li:nth-child(5n - 1) {
+    color: blue;
+}
+#s5 li:nth-child(5n + 2) {
+    color: green;
+}
+#s5 li:nth-child(5n - 2) {
+    color: orangered;
+}
+/*Selectors by attributes*/
+[type=text] {
+     border: 1px dashed red;
+}
+[placeholder='Enter Your Id number'] {
+    border: 1px dotted blue;
+}
+[placeholder^='Enter'] {
+    margin-left: 20px;
+}
+[placeholder~='Enter'],
+[placeholder~='enter'] {
+    background: #333333;
+}
+[placeholder*='Enter'] {
+    background: #333333;
+}
+[placeholder*='ddd'] {
+    width: 300px;
+}
+[placeholder$='!'] {
+    font-style: italic;
+    text-transform: uppercase;
+}
+input[type] {
+    padding: 5px;
+}
+a[href^='https'] {
+    color: green;
+}
+
+a:hover {
+    text-decoration: none;
+}
+a:visited {
+    color: red;
+}
+:focus {
+    outline: none;
+    border-color: lime;
+}
+input:hover:focus {
+    background: #ffffff;
+}
+[type=checkbox] {
+    display: block;
+}
+[type=checkbox]:checked {
+    margin-left: 10px;
+}
+[type=button]:before {
+    content: '[';
+}
+[type=button]:after {
+    content: ']';
+}
+.p-line-above:before {
+    content: '';
+    width: 50%;
+    height: 2px;
+    background: darkred;
+    display: block;
+}
+p:first-letter {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 20px;
+}
+li {
+    display: block;
+}
+li:before {
+    content: '• ';
+    /*width: 4px;*/
+    /*height: 4px;*/
+    /*border-radius: 50%;*/
+    /*background: #000000;*/
+    /*display: inline-block;*/
+    /*margin-bottom: 2px;*/
+    /*margin-right: 5px;*/
+}
+

@@ -1,0 +1,141 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+}
+
+header {
+  background: url("../img/bg_header.png") no-repeat top center;
+  width: 100%;
+  height: 820px;
+  margin: 0;
+}
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 265px;
+}
+.container h1 {
+  display: block;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+.container p {
+  color: white;
+  text-decoration: none;
+  font-family: "Josefin Sans";
+  font-size: 14px;
+  letter-spacing: 2.8px;
+  text-align: center;
+}
+.container .search {
+  max-width: 650px;
+  height: 60px;
+  margin: auto;
+  background-color: #fff;
+}
+.container .search .row {
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.container .search .col-4 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  -ms-flex: 0 0 33.333333%;
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+}
+.container .search .col-8 {
+  color: #999;
+  font-family: "Josefin Sans";
+  font-size: 14px;
+  letter-spacing: 2.8px;
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  -ms-flex: 0 0 66.666667%;
+  flex: 0 0 66.666667%;
+  max-width: 66.666667%;
+}
+.container .search .col-8 input {
+  border: none;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  margin: 0em;
+  font: 400 13.3333px Arial;
+  height: 54px;
+  width: 100%;
+}
+.container .search .col-4 {
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+}
+.container .search .search-btn {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border: 2px solid #fff;
+  background-color: #5474fd;
+  height: 60px;
+  width: 150px;
+  padding: 15px;
+  cursor: pointer;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+}
+.container .scroll-down {
+  padding-top: 120px;
+  text-align: center;
+}
+.container .scroll-down span p {
+  color: white;
+  text-decoration: none;
+  font-family: "Josefin Sans";
+  font-size: 14px;
+  letter-spacing: 2.8px;
+  text-align: center;
+}
+
+.arrow_bottom {
+  position: absolute;
+  margin-top: 10px;
+  width: 2vmin;
+  height: 2vmin;
+  background: 0 0;
+  border-top: 0.3vmin solid #fff;
+  border-right: 0.3vmin solid #fff;
+  box-shadow: 0 0 0 #d3d3d3;
+  transition: all 0.2s ease;
+  transform: translate3d(0, -50%, 0) rotate(135deg);
+}
+
+.s1 {
+  background: url("../img/bg2.png");
+}
+
+/*# sourceMappingURL=main.css.map */

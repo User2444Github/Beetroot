@@ -1,0 +1,141 @@
+.inner {
+  width: 1170px;
+  height: 900px;
+  margin: 0 auto;
+  padding-top: 66px;
+  position: relative;
+}
+
+main {
+  background: url("../bg1.png") no-repeat top center;
+}
+
+.menu {
+  float: right;
+  margin: 0;
+  height: 52px;
+  display: flex;
+  align-items: center;
+}
+.menu a {
+  padding-top: 5px;
+  color: black;
+  text-decoration: none;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 16px;
+  vertical-align: middle;
+  margin-left: 34px;
+}
+.menu a:hover {
+  border-top: 3px solid #ff6033;
+}
+
+.s1 {
+  padding-top: 243px;
+  margin-bottom: 160px;
+}
+.s1 .h1 {
+  font-size: 60px;
+  font-family: Arial;
+  font-weight: bold;
+  margin: 0;
+}
+.s1 p {
+  width: 370px;
+}
+.s1 button {
+  color: white;
+  font-size: 20px;
+  border: none;
+  background: #ff6033;
+  width: 200px;
+  height: 55px;
+}
+
+.scroll {
+  display: block;
+  margin: auto;
+}
+
+.s2 {
+  background: url("../bg2.png") no-repeat top center;
+}
+.s2 .inner {
+  height: 600px;
+}
+.s2 h1 {
+  font-size: 90px;
+  float: right;
+  color: white;
+}
+.s2 p {
+  width: 500px;
+  float: right;
+  content: "";
+  clear: both;
+  color: white;
+}
+
+.s3 {
+  background: url("../bg3.png") no-repeat top center;
+  height: 790px;
+}
+.s3 .inner {
+  padding: 0;
+}
+.s3 button:first-of-type {
+  margin-top: 178px;
+}
+.s3 button {
+  width: 400px;
+  height: 100px;
+  margin-bottom: 20px;
+  content: "";
+  clear: both;
+  margin-right: 0;
+}
+.s3 button img {
+  float: right;
+  margin-right: 15px;
+}
+.s3 button p {
+  line-height: 100%;
+  display: inline-block;
+}
+.s3 h1 {
+  font-size: 90px;
+  color: white;
+  display: block;
+  float: right;
+  line-height: 790px;
+  margin: 0;
+}
+
+.s4 {
+  background: url("../bg4.png") no-repeat top center;
+  height: 1250px;
+}
+.s4 .cont1 img:first-of-type {
+  float: left;
+}
+.s4 .cont1 img:nth-of-type(3) {
+  float: right;
+}
+.s4 button {
+  content: "";
+  clear: both;
+  color: white;
+  font-size: 20px;
+  border: none;
+  background: deepskyblue;
+  width: 200px;
+  height: 55px;
+  display: block;
+  margin: 0 auto;
+}
+.s4 .cont2 img:first-of-type {
+  float: left;
+}
+
+/*# sourceMappingURL=main.css.map */

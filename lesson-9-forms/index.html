@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<form action="/" method="post">
+    <input type="text" placeholder="введите фамилию" autofocus>
+    <label for="name" >Введите имя <span>*</span>:</label>
+    <input type="text" id="name" name="firstname">
+    <label for="pass">Введите пароль:</label>
+    <input type="text" id="pass" value="petr" required >
+    <label>
+        Введите email:
+        <input type="email">
+        <p>всякая ерунда, которую говорят</p>
+        <p>всякая ерунда, которую говорят</p>
+    </label>
+    <input type="password">
+    <input type="email">
+    <input type="tel">
+    <input type="number" disabled value="Default ">
+    <input type="search" value="serach">
+    <input type="date">
+    <input type="color">
+    <input type="file">
+    <input type="hidden">
+    <input type="button" value="knopka">
+    <input type="submit" value="knopka otpravit">
+    <input type="reset" value="knopka sbrosit">
+    <label for="chb1">rad 1:<input type="radio" name="radio 1" id="chb1"></label>
+    <label for="chb2">rad 2:<input type="radio" name="radio 1" id="chb2"></label>
+    <label for="chb3">rad 3:<input type="radio" name="radio 1" id="chb3" checked="checked"></label>
+    <label for="chb4">rad 4:<input type="radio" name="radio 1" id="chb4" disabled></label>
+    <input type="checkbox" name="checkbox 1" checked>
+    <input type="checkbox" name="checkbox 1">
+    <input type="checkbox" name="checkbox 1" checked>
+    <input type="checkbox" name="checkbox 1">
+    <label class="styled-textarea">Ваш коментар
+        <textarea name="" id="comment"></textarea>
+    </label>
+    <label for="language">Виберіть мову</label>
+    <select name="language" id="language">
+        <optgroup label="native language">
+        <option value="en">Eng</option>
+        <option value="ru">Рус</option>
+        <option value="ua" selected="selected">Укр</option>
+        </optgroup>
+        <option value="ch">Китайский</option>
+        <option value="pt">Португальский</option>
+    </select>
+
+    <button type="button">
+        обычная кнопка
+    </button>
+    <button type="reset">
+        сброс
+    </button>
+    <button type="submit">
+        отправить
+    </button>
+
+</form>
+
+
+</body>
+</html>

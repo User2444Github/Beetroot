@@ -1,0 +1,63 @@
+section {
+    width: 400px;
+    height: 400px;
+    background: #0fbfac;
+    margin: 50px auto;
+    border: 20px solid darkblue;
+    padding: 100px;
+    box-sizing: border-box;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background: #cccccc;
+    margin: 50px;
+}
+
+nav {
+    border: 1px solid;
+    padding: 1px; /*для того чтоб маржины не поглощались*/
+}
+
+footer {
+    background: #aaaaaa;
+}
+
+article div {
+    display: inline-block;
+    vertical-align: middle;
+}
+article div:nth-child(2) {
+    height: 150px;
+}
+article div:nth-child(3) {
+    height: 100px;
+}
+aside img{
+    height: 50px;
+    vertical-align: middle;
+}
+
+aside   {
+    background: grey;
+    height: 80px;
+
+}
+aside:before   {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+aside [type=checkbox]:checked+label{
+    text-decoration: line-through;
+}
+label{
+    display: inline-block;
+}
+aside*{
+    vertical-align: middle;
+    display: inline-block;
+    cursor: pointer;
+}

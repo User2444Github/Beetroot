@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+}
+.important {
+    font-weight: bold;
+    color: #890000;
+
+}
+.inner {
+    width: 1140px;
+    margin: 0 auto;
+}
+.inner:before,
+.inner:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.header {
+    background: #ff7b02;
+}
+.header__logo {
+    font-size: 30px;
+    text-decoration: none;
+    color: #000000;
+}
+.menu {
+    float: right;
+    margin-top: 10px;
+}
+.menu--right {
+    float: right;
+}
+
+.menu__item {
+    margin: 20px;
+}
+.menu_item--first_item {
+    margin-left: 0;
+}
+.menu__item--last-item {
+    margin-right: 0;
+}
+.menu__item--black {
+    color: #000000;
+}
+.menu--mt{
+    margin-top: 10px;
+}
+.main-tittle {
+    text-align: center;
+}
+.s--dark {
+    background: #aaaaaa;
+}
+.section-title {
+    text-align: center;
+    color: #555555;
+}
+.section-text {
+    text-align: justify;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+.list {
+    display: inline-block;
+    padding: 0;
+    margin-top: 10px;
+}
+.list__item {
+    border: 1px solid black;
+    border-radius: 5px;
+    display: block;
+    padding: 0;
+}
+.menu__item--section {
+    display: block;
+    margin: 0;
+}
+.column {
+    height: 100px;
+    width: 30%;
+    background: black;
+    display: block;
+
+}
+.s--3 {
+    text-align: center;
+}
+.column--first {
+    float: left;
+}
+.column--last {
+    float: right;
+}
+.stars input {
+    display: none;
+}
+
+.stars input + label {
+    float: right;
+    margin: 10px;
+    width: 15px;
+    height: 15px;
+    background: #333333;
+    cursor: pointer;
+
+}
+.stars input:checked ~ label,
+.stars label:hover,
+.stars label:hover ~ label {
+    background: black;
+}
+
+
+

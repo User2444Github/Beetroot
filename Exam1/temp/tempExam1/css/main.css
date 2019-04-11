@@ -1,0 +1,42 @@
+.inner {
+  width: 1170px;
+  height: 820px;
+  margin: 0 auto;
+  position: relative;
+}
+
+header {
+  background: url("../../../travel-more/img/bg_header.png") no-repeat top center;
+  display: flex;
+}
+header .top {
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+header .top h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+header .top p {
+  font-size: 24px;
+  color: white;
+  text-align: center;
+}
+header .top input {
+  width: 500px;
+  height: 60px;
+}
+header .top button {
+  width: 150px;
+  height: 60px;
+}
+
+section .inner {
+  height: 80px;
+  background: url("../../../travel-more/img/bg2.png");
+}
+
+/*# sourceMappingURL=main.css.map */
